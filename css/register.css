@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+body{
+	background: #0D7792;
+}
+table{
+	white-space: normal;
+}
+/*container begin*/
+.container{
+	background: #FFFFFF;
+	margin: 20px auto;
+	width: 710px;
+	border:1px solid #FFFFFF;
+	border-radius: 20px;
+}
+/*table-head*/
+.tab-head{
+	width: 90%;
+	margin:0 auto;
+}
+/*table content*/
+.tab-content{
+	width: 90%;
+	margin:0 auto;
+	border:1px solid #DADADA;
+}
+caption{
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 10px auto;
+}
+/*tbody begin*/
+.text-head{
+	padding: 5px 0;
+	text-align: center;
+}
+.tab-link{
+	text-align: right;
+	margin-bottom: 0;
+	vertical-align: bottom;
+}
+.tab-link a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #FF0099;
+}
+.back{
+	cursor:pointer;
+	color: blue;
+}
+.back:hover{
+	color:#FF0000;
+}
+.cell-width{
+	padding:5px 0;
+	width: 22%;
+	text-align: right;
+}
+.font-color{
+	color: blue;
+}
+.font-bold{
+	color: blue;
+	background: #EEEEEE;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 20px;
+}
+.bold{
+	font-weight: bold;
+}
+input{
+	padding:1px;
+	margin: 3px;
+}
+/*font color*/
+.font-color input{
+	margin: 1px 2px;
+	size: 30px;
+	border:2px inset;
+	width: 170px;
+	display: inline-block;
+}
+#sec-input{
+	width: 130px;
+}
+select{
+	margin: 1px 2px;
+	display: inline-block;
+}
+.text-area textarea{
+	margin: 1px 2px;
+	border:2px inset;
+	display: inline-block;
+}
+/*input style*/
+.text-tip{
+	color: #FF0000;
+}
+/*table-footer*/
+.tab-footer{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border:1px solid #DADADA;
+	border-top: 0;
+}
+.tab-footer input{
+	width: 80px;
+	height: 20px;
+}
+.text-footer{
+	margin:5px auto 30px;
+	text-align: center;
+}
+.text-footer span{
+	color: #A8A8A8;
+}
+/*footer end */
+/*container end */
